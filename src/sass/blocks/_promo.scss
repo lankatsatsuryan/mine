@@ -1,4 +1,31 @@
 .promo {
     padding: 282px 0 201px 0;
-    background: url('../../img/Rectangle_2.jpg') center (center/cover) no-repeat;
+    background: url('../img/Rectangle_2.jpg') center (center/cover) no-repeat;
+    height: 800px;
+
+    h1 {
+        font-family: 'Oswald Regular';
+        font-weight: 400;
+        font-size: 48px;
+        color: #FFFFFF;
+        margin-left: 100px;
+    }
+
+    &_descr {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+
+    &_block {
+        width: 500px;
+        height: 720px;
+        background: rgba(0, 91, 193, 0.6);
+        margin-top: -521px;
+        margin-left: -120px;
+    }
 }
